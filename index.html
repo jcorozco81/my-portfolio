@@ -6,9 +6,9 @@
     <title>Portfolio: Juan Orozco</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   </head>
-  <body>
+  <body class="has-navbar-fixed-top">
 <!-- Nav Header -->
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top notification is is-info" role="navigation" aria-label="main navigation">
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-end">
       <a class="navbar-item" href="#about-me">
@@ -31,14 +31,14 @@
 
 <!-- Tittle -->
 
-<section class="hero is-info">
-  <div class="hero-body">
-    <p class="title">
-      Info hero
-    </p>
-    <p class="subtitle">
-      Info subtitle
-    </p>
+<section class="hero block is-info">
+  <div class="hero-body is-small has-text-centered	">
+    <h1 class="title is-1">
+      Juan Orozco
+    </h1>
+    <h2 class="subtitle is-2">
+      Web Developer
+    </h2>
   </div>
 </section>
 
@@ -64,7 +64,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <div class="tile is-child box">
-          <p class="title">About Me:</p>
+          <p class="title" id="about-me">About Me:</p>
         </div>
       </div>
     </div>
@@ -82,7 +82,7 @@
 
       <div class="tile is-parent">
         <div class="tile is-child box">
-          <p>Hello, my name is Juan Carlos Orozco. I was born in Puerto Rico. I have a Bachelor Degree in Electrical Engineering and a Master in Business Administration. I'm currently enrolled in a Coding Bootcamp working to learn the skills to become a Web Developer. In this page you will find samples of my work. If you see something interesting don't hesitate to contact me. My contact information is at the bottom of this page. Enjoy!</p>
+          <p class="is-size-4-desktop is-size-5-mobile is-size-5-tablet">Hello, my name is Juan Carlos Orozco. I was born in Puerto Rico. I have a Bachelor Degree in Electrical Engineering and a Master in Business Administration. I'm currently enrolled in a Coding Bootcamp working to learn the skills to become a Web Developer. In this page you will find samples of my work. If you see something interesting don't hesitate to contact me. My contact information is at the bottom of this page. Enjoy!</p>
         </div>
       </div>
   
@@ -96,7 +96,7 @@
 <div class="tile is-ancestor">
   <div class="tile is-parent">
     <div class="tile is-child box">
-      <p class="title">My Projects:</p>
+      <p class="title" id="projects">My Projects:</p>
     </div>
   </div>
 </div>
@@ -104,23 +104,69 @@
 
   <div class="tile is-ancestor">
 
-    <div class="tile is-6 is-parent">
+    <div class="tile is-8 is-parent">
       <div class="tile is-child box">
-        <p class="title">Three</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-        <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-        <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
+
+        <div class="block">
+          <h3 class="title is-3">Trivia Night</h3>
+          <h4 class="subtitle is-4">An app for at home drinks and fun.</h4>
+      </div>
+
+        <div class="block box is-centered">
+        <figure class="image is-256x256">
+          <img src="assets/images/trivia-night.PNG"> <!-- Replace picture -->
+        </figure>
+      </div>
+
+        <div class="buttons is-centered">
+        <a href="https://github.com/jcorozco81" class="button is-large is-info">Website</a>
+        <a href="https://github.com/jcorozco81/trivia-night" class="button is-large is-info">Repository</a>
+      </div>
+
       </div>
     </div>
 
-    <div class="tile is-vertical is-parent">
+    <div class="tile is-vertical is-4 is-parent">
+
       <div class="tile is-child box">
-        <p class="title">One</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+
+        <div class="block">
+          <h5 class="title is-5">Weather Dashboard</h5>
+          <h6 class="subtitle is-6">Subtitle 6</h6>
+        </div>
+
+        <div class="block box is-centered">
+        <figure class="image is-256x256">
+          <img src="assets/images/weather-dashboard.PNG"> <!-- Replace picture -->
+        </figure>
+        </div>
+
+        <div class="buttons is-centered">
+          <a href="https://github.com/jcorozco81" class="button is-info">Website</a>
+          <a href="https://github.com/jcorozco81" class="button is-info">Repository</a>
+        </div>
       </div>
+
+
+      
       <div class="tile is-child box">
-        <p class="title">Two</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+
+        <div class="block">
+          <h5 class="title is-5">Code Quiz</h5>
+          <h6 class="subtitle is-6">Subtitle 6</h6>
+        </div>
+
+        <div class="block box is-centered">
+        <figure class="image is-256x256">
+          <img src="assets/images/code-quiz.PNG"> <!-- Replace picture -->
+        </figure>
+      </div>
+
+      <div class="buttons is-centered">
+          <a href="https://github.com/jcorozco81" class="button is-info">Website</a>
+          <a href="https://github.com/jcorozco81" class="button is-info">Repository</a>
+        </div>
+
       </div>
     </div>
   </div>
@@ -128,16 +174,34 @@
   <div class="tile is-ancestor">
     <div class="tile is-parent">
       <div class="tile is-child box">
-        <p class="title">One</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+        <p class="title">Day Planner</p>
+        <figure class="image is-256x256">
+          <img src="assets/images/day-planner.png"> <!-- Replace picture -->
+        </figure>
+        <div class="box">
+          <p>Test</p>
+          <a href="https://github.com/jcorozco81" class="button is-info">Website</a>
+          <a href="https://github.com/jcorozco81" class="button is-info">Repository</a>
+        </div>
       </div>
     </div>
       <div class="tile is-parent">
-      <div class="tile is-child box">
-        <p class="title">Two</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-      </div>
+        <div class="tile is-child box">
+          <p class="title">Comming Soon</p>
+          <figure class="image is-256x256">
+            <img src="assets/images/Comming-Soon.png"> <!-- Replace picture -->
+          </figure>
+        </div>
     </div>
+
+    <div class="tile is-parent">
+      <div class="tile is-child box">
+        <p class="title">Comming Soon</p>
+        <figure class="image is-256x256">
+          <img src="assets/images/Comming-Soon.png"> <!-- Replace picture -->
+        </figure>
+      </div>
+  </div>
   </div>
 
 
@@ -151,7 +215,7 @@
   <div class="tile is-ancestor">
     <div class="tile is-parent">
       <div class="tile is-child box">
-        <p class="title">Contact Me:</p>
+        <p class="title" id="contact-me">Contact Me:</p>
       </div>
     </div>
   </div>
@@ -169,21 +233,26 @@
 
       <div class="tile is-parent">
       <article class="tile is-child notification is-info">
-        <a href="mailto:jcorozco@gmail.com" class="button is-large is-fullwidth is-info">E-mail</a>
+        <a href="https://github.com/jcorozco81" class="button is-large is-fullwidth is-info">GitHub</a>
       </article>
     </div>
 
       <div class="tile is-parent">
       <article class="tile is-child notification is-info">
-        <a href="mailto:jcorozco@gmail.com" class="button is-large is-fullwidth is-info">E-mail</a>
+        <a href="https://twitter.com/jcorozcoleon" class="button is-large is-fullwidth is-info">Twitter</a>
       </article>
     </div>
 
       <div class="tile is-parent">
       <article class="tile is-child notification is-info">
-        <a href="mailto:jcorozco@gmail.com" class="button is-large is-fullwidth is-info">E-mail</a>
+        <a href="https://www.linkedin.com/in/juan-carlos-orozco-b6276434/" class="button is-large is-fullwidth is-info">LinkedIn</a>
       </article>
+    </div>
 
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-info">
+        <a href="https://www.facebook.com/jcorozco/" class="button is-large is-fullwidth is-info">Facebook</a>
+      </article>
     </div>
 
   </div>
