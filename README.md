@@ -36,10 +36,10 @@ Or
 1. After the page is loaded on the Web Browser, use the header links on the top rigth corner to navigate through the page (See the scrreenshot below).
 
 
-[Screenshot of the Portfolio Main Page](/assets/images/portfolio-screenshot.png)
+[Screenshot of the Portfolio Main Page](/assets/images/my-portfolio.png)
 
 
-![Screenshot of the Portfolio Main Page](/assets/images/portfolio-screenshot.png)
+![Screenshot of the Portfolio Main Page](/assets/images/my-portfolio.png)
 
     
 ## Credits
